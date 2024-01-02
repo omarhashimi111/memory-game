@@ -132,7 +132,7 @@ function start() {
         imgs[i].setAttribute("src",cardArray[i].img)
         gridDisplay.appendChild(imgs[i])
          setTimeout(()=>{
-            imgs[i].setAttribute("src","/images/Black_question_mark.png")
+            imgs[i].setAttribute("src","images/Black_question_mark.png")
             imgs[i].setAttribute("dataId",i)
             imgs[i].addEventListener("click",flip);
             
