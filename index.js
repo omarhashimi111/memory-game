@@ -153,7 +153,7 @@ function restart() {
     result.textContent = (cards.length * 10)
     
     for(let i = 0 ; i < imgs.length; i++){
-        imgs[i].setAttribute("src","/images/Black_question_mark.png");
+        imgs[i].setAttribute("src","images/Black_question_mark.png");
         imgs[i].removeEventListener("click",flip)
     }
 }
@@ -167,7 +167,7 @@ const rest = () => {
     healthDisplay.innerText = health
     result.textContent = 0;
     for(let i = 0 ; i < imgs.length; i++){
-        imgs[i].setAttribute("src","/images/Black_question_mark.png");
+        imgs[i].setAttribute("src","images/Black_question_mark.png");
         imgs[i].removeEventListener("click",flip);
     }
 
